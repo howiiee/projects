@@ -1,8 +1,6 @@
-# Template p5 project
+# Age Of Aquariums
 
 Game Description:
-
-Title: Age Of Aquariums
 
 Platform: Web Browser (utilizing p5.js library)
 

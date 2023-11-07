@@ -1,8 +1,6 @@
-# Template p5 project
+# Gardening Realness
 
 Game Description:
-
-Title: Gardening Realness
 
 Platform: Web Browser (using p5.js library)
 
