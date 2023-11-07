@@ -2,8 +2,6 @@
 
 Game Description:
 
-Title: Celestial Dance
-
 Platform: Web Browser (utilizing p5.js library)
 
 Gameplay Overview:
