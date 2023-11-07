@@ -1,8 +1,6 @@
-# Template p5 project
+# Matching Quest
 
 Game Description:
-
-Title: Whimsical World Builder
 
 Platform: Web Browser (using the p5.js library)
 
