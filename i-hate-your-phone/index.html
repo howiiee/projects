@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      width="device-width,"
+      initial-scale="1.0,"
+      maximum-scale="1.0,"
+      user-scalable="0"
+    />
+
+    <title>i hate your phone</title>
+
+    <!-- CSS stylesheet(s) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Library script(s) -->
+    <script src="js/libraries/p5.min.js"></script>
+    <script src="js/libraries/p5.sound.min.js"></script>
+
+    <!-- My script(s) -->
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div id="loadingScreen" style="display: flex; align-items: center; justify-content: center; height: 100vh; background-color: #c8c8fa;">
+      <img id="loadingGif"src="assets/images/loading-beating-heart.gif" alt="Loading...">
+    </div>
+    <div id="toolbar">
+      <button id="theme1">Theme 1</button>
+      <button id="theme2">Theme 2</button>
+      <button id="theme3">Theme 3</button>
+      <button id="uploadButton">Upload Song</button>
+      <input
+        type="file"
+        id="songUpload"
+        accept="audio/*"
+        style="display: none"
+      />
+    </div>
+  </body>
+</html>

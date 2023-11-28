@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: grid; 
+  justify-content: center;
+  align-content: center;
+  height: 100vh; 
+  overflow: hidden; 
+  background-color: #c8c8fa;
+}
+
+#toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Make the toolbar background transparent */
+  padding: 10px;
+  text-align: center;
+  border: none; /* Remove any border */
+}
+
+#toolbar button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #f8c9de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toolbar button:hover {
+  background-color: #e64297;
+}
+
+#loadingScreen {
+  transition: opacity 0.5s ease-out;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* High z-index to cover the whole screen */
+}
+
+#loadingScreen img {
+  width: 200px;  
+  height: auto;  
+}
+
+
